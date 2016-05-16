@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Basic 78</title>
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<title>jQuery UI Datepicker - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  
+<script>
+ $(document).ready(function(){
+    $( ".datepicker" ).datepicker();
+    
+     
+  });(jQuery);
+  
+  
+  </script>
+
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+   
+    <div id="hgroup">
+      <h1>Navigation 101</h1>
+      <h2>Travel all around at ease</h2>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="prepare.html">How to prepare</a></li>
+        <li><a href="routes.html">Find Routes</a></li>
+        <li><a href="airport.html">To NAIA</a></li>
+        <li class="last"><a href="about.html">About us</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- content body -->
+  <header id="header" class="clear"> 
+  
+   <div id="hgroup1">
+      <h1>Find routes and setup a plan here</h1>
+    </div>
+    <div id="shortdesc">
+	   	<p>Determine where you want to go right here (Most routes will Start from Manila)</p>
+   		</div>
+   </header>
+    </div>
+    
+    <div class="form-style-10">
+<h1>Set up your Travel<span>put everything you need here</span></h1>
+<form action = "Controller" method="post">
+    <div class="section"><span>1</span>Select a place from the Philippines:</div>
+    <div class="inner-wrap">
+        <label><select name="places">
+  			<option value="boracay">Boracay</option>
+  			<option value="choocolate">Chocolate Hills</option>
+  			<option value="mactan">Mactan</option>
+  			<option value="mayon">Mayon Volcano</option>
+  			<option value="rice">Rice Terraces</option>
+  			<option value="puerto">Puerto Princesa</option>
+  			<option value="corregidor">Corregidor Island</option>
+  			<option value="baguio">Baguio</option>
+  			<option value="tagaytay">Tagaytay</option>
+  			<option value="elnido">El Nido</option>
+		</select></label>
+        
+    </div>
+
+    <div class="section"><span>2</span>Departure</div>
+    <div class="inner-wrap">
+        <label>Departure: <input type="text" class="datepicker" name="departure"></label>
+        <label>Return: <input type="text" class="datepicker" name="return"></label>
+        <label>Time: ex. ( 0:00 - 23:59 ) <input type="text"  name="time"></label>
+        
+    </div>
+
+    <div class="section"><span>3</span>What to bring in most travels:</div>
+        <div class="inner-wrap">
+         <input type="checkbox" name="items" value="Phone">Phone 
+          <input type="checkbox" name="items" value="Clothes">Essential Clothings
+          <input type="checkbox" name="items" value="PowerBank">Power Bank
+          <input type="checkbox" name="items" value="SwimSuits">Swimsuits<br><br>
+          <input type="checkbox" name="items" value="GoodLuggage">Luggage
+          <input type="checkbox" name="items" value="Meds">Medical Kit
+          <input type="checkbox" name="items" value="Padlock">Padlock
+          <input type="checkbox" name="items" value="Camera">Camera
+          <input type="checkbox" name="items" value="Documents">Documents<br><br>
+          <input type="checkbox" name="items" value="Money">Money
+          <input type="checkbox" name="items" value="Journal">Journal
+          <input type="checkbox" name="items" value="Pencil">Pencil/Pen
+          <input type="checkbox" name="items" value="Tickets">Tickets
+          <input type="checkbox" name="items" value="Cards">Extra Cards
+          
+          
+          
+           
+    </div>    <div class="button-section">
+     <input type="submit" name="Sign Up" />
+     
+    </div>
+</form>
+</div>
+    
+    <!-- / content body -->
+  </div>
+
+<!-- Footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">Copyright &copy; 2016 - All Rights Reserved</p>
+   
+  </footer>
+  </div>
+</body>
+</html>
