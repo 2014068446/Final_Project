@@ -5,7 +5,7 @@
 <%@page import="proj.Bean" %>
 <html lang="en" dir="ltr">
 <head>
-<title>Basic 78</title>
+<title>Routes to Corregidor</title>
 <meta charset="iso-8859-1">
 <link rel="stylesheet" href="styles/layout.css" type="text/css">
 

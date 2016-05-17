@@ -5,7 +5,7 @@
 <%@page import="proj.Bean" %>
 <html lang="en" dir="ltr">
 <head>
-<title>Basic 78</title>
+<title>Routes to Boracay</title>
 <meta charset="iso-8859-1">
 <link rel="stylesheet" href="styles/layout.css" type="text/css">
 
@@ -81,7 +81,7 @@
 	   	 ride to Boracay Cagban Jetty Port (15 minutes), followed by van
 	   	 ride to your resort/hotel in White Beach (15-20 minutes). For 
 	   	 other destinations, add-ons apply.
-	   	 /li>
+	   	 </li>
 	   	 <h2><br>*Senior citizen (with ID): PhP 440 (one-way); PhP 880 (RT). 
 	Optional porter assistance: PhP 130/bag/way	
 	<br><br>

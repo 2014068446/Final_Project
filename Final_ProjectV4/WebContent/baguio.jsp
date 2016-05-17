@@ -5,7 +5,7 @@
 <%@page import="proj.Bean" %>
 <html lang="en" dir="ltr">
 <head>	
-<title>Basic 78</title>
+<title>Route to Baguio</title>
 <meta charset="iso-8859-1">
 <link rel="stylesheet" href="styles/layout.css" type="text/css">
 
@@ -81,9 +81,9 @@
       <section id="services" class="clear">
       </section>
        
-        <div id="shortdesc">
+       
         <div class="line-separator"></div>
-	   		
+	   		 <div id="shortdesc">
 	   		<%!String[] Lists; %>
 	   		<%
 	   			Lists=request.getParameterValues("items");

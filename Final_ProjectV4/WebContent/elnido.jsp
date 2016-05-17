@@ -5,7 +5,7 @@
 <html lang="en" dir="ltr">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Basic 78</title>
+<title>Routes to El Nido</title>
 <link rel="stylesheet" href="styles/layout.css" type="text/css">
 </head>
 <body>
